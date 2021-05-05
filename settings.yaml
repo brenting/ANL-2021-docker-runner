@@ -3,7 +3,7 @@
     parties:
     - party: parties/learningagent-1.6.0-jar-with-dependencies.jar
       profile: profiles/fitness/fitness1.json
-      parameters: {persistentstate: test_state, negotiationdata: [session1]}
+      parameters: {persistentstate: learningagent_state, negotiationdata: [learningagent_session_1]}
     - party: parties/randomparty-1.6.0-jar-with-dependencies.jar
       profile: profiles/fitness/fitness2.json
 - negotiation:
@@ -11,7 +11,7 @@
     parties:
     - party: parties/learningagent-1.6.0-jar-with-dependencies.jar
       profile: profiles/flightbooking/flightbooking1.json
-      parameters: {persistentstate: test_state, negotiationdata: [session2]}
+      parameters: {persistentstate: learningagent_state, negotiationdata: [learningagent_session_2]}
     - party: parties/randomparty-1.6.0-jar-with-dependencies.jar
       profile: profiles/flightbooking/flightbooking2.json
 - negotiation:
@@ -19,20 +19,20 @@
     parties:
     - party: parties/learningagent-1.6.0-jar-with-dependencies.jar
       profile: profiles/japantrip/japantrip1.json
-      parameters: {persistentstate: test_state, negotiationdata: [session3]}
+      parameters: {persistentstate: learningagent_state, negotiationdata: [learningagent_session_3]}
     - party: parties/randomparty-1.6.0-jar-with-dependencies.jar
       profile: profiles/japantrip/japantrip2.json
 - learn:
     deadline: 2
     parties:
     - party: parties/learningagent-1.6.0-jar-with-dependencies.jar
-      parameters: {persistentstate: test_state, negotiationdata: [session1, session2, session3]}
+      parameters: {persistentstate: learningagent_state, negotiationdata: [learningagent_session_1, learningagent_session_2, learningagent_session_3]}
 - negotiation:
     deadline: 2
     parties:
     - party: parties/learningagent-1.6.0-jar-with-dependencies.jar
       profile: profiles/jobs/jobs1.json
-      parameters: {persistentstate: test_state, negotiationdata: [session4]}
+      parameters: {persistentstate: learningagent_state, negotiationdata: [learningagent_session_4]}
     - party: parties/randomparty-1.6.0-jar-with-dependencies.jar
       profile: profiles/jobs/jobs2.json
 - negotiation:
@@ -40,11 +40,11 @@
     parties:
     - party: parties/learningagent-1.6.0-jar-with-dependencies.jar
       profile: profiles/laptop/laptopBuyer.json
-      parameters: {persistentstate: test_state, negotiationdata: [session5]}
+      parameters: {persistentstate: learningagent_state, negotiationdata: [learningagent_session_5]}
     - party: parties/randomparty-1.6.0-jar-with-dependencies.jar
       profile: profiles/laptop/laptopSeller.json
 - learn:
     deadline: 2
     parties:
     - party: parties/learningagent-1.6.0-jar-with-dependencies.jar
-      parameters: {persistentstate: test_state, negotiationdata: [session4, session5]}
+      parameters: {persistentstate: learningagent_state, negotiationdata: [learningagent_session_4, learningagent_session_5]}
