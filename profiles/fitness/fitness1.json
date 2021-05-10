@@ -8,7 +8,7 @@
 						"yoga": 0.8,
 						"aerobics": 0.4,
 						"running": 0.2,
-						"tennis": 0.9
+						"tennis": 1.0
 					}
 				}
 			},
@@ -16,7 +16,7 @@
 				"discreteutils": {
 					"valueUtilities": {
 						"30 min": 0.44,
-						"1 hour": 0.8,
+						"1 hour": 1.0,
 						"3 hours": 0.22,
 						"5 hours": 0.11
 					}
