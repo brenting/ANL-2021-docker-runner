@@ -29,3 +29,4 @@ Every step requires the specification of a deadline in seconds and a list of par
 ## Notes
 - Results are overwritten when a new test run is executed.
 - Files in the "tmp" directory are not reused when a new test run is executed.
+- The code of the Docker container can be found [here](https://github.com/brenting/ANL-2021-docker-runner). I can be run without Docker, but you'll have to do more installation work.
