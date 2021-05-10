@@ -1,8 +1,6 @@
 .venv
 .vscode
 __pycache__
-app
-build*
 
 results/*
 tmp/*
