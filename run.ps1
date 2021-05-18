@@ -4,6 +4,6 @@ docker run `
 --mount type=bind,source=${PWD}/parties,target=/app/parties `
 --mount type=bind,source=${PWD}/results,target=/app/results `
 --mount type=bind,source=${PWD}/tmp,target=/app/tmp `
-brenting/anl_2021:1.0.0
+brenting/anl_2021:1.1.0
 
 pause
