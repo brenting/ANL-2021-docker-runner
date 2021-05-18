@@ -24,7 +24,7 @@ There are two possible entries in the list of steps:
 Every step requires the specification of a deadline in seconds and a list of parties involved. Per agent a few things must be specified:
 - A relative path to the agent jar-file. You can build your own jar-file using the [ANL example agent](https://github.com/brenting/ANL-2021-example-agent).
 - A profile of the same underlying negotiation domain. A profile specifies the preference or utility of an agent over a negotiation problem. e.g. Suppose we would want to negotiate over the japantrip domain (see "profiles" directory), then we would assign the "japantrip1.json" profile to one agent and the "japantrip2.json" profile to the other agent.
-- A dictionary of parameters that are passed to the agent in every session. This can be anything (see also [here](https://tracinsy.ewi.tudelft.nl/pubtrac/GeniusWeb#PartyParameters)), but to simulate the learning behaviour that is [this years challenge](http://web.tuat.ac.jp/~katfuji/ANAC2021/genius.html), the parameters "persistentstate" and "negotiationdata" are most important. See the [competition website ](http://web.tuat.ac.jp/~katfuji/ANAC2021/genius.html) and the example "settings.yaml" file to understand how to use these parameters.
+- A dictionary of parameters that are passed to the agent in every session. This can be anything (see also [here](https://tracinsy.ewi.tudelft.nl/pubtrac/GeniusWeb#PartyParameters)). See the example "settings.yaml" file to understand how to use these parameters.
 
 ## Notes
 - Results are overwritten when a new test run is executed.
